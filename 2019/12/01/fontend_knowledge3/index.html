@@ -1,0 +1,441 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>前端小知识系列（三） | L-Zone</title><meta name="keywords" content="小知识"><meta name="author" content="Lucius Tan,luciustan1421@gmail.com"><meta name="copyright" content="Lucius Tan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="前端小知识系列（三）—— 例题 检查一下自己对前端基础知识的掌握吧~  1. var 和let const的区别 var是ES5, let const 是ES6, var有变量提升  var 和 let是变量，可修改，const是常量不可修改  let const有块级作用域，var没有  变量提升： console.log(a);var a &#x3D; 200; &#x2F;&#x2F; un">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端小知识系列（三）">
+<meta property="og:url" content="https://www.luciustan.online/2019/12/01/fontend_knowledge3/index.html">
+<meta property="og:site_name" content="L-Zone">
+<meta property="og:description" content="前端小知识系列（三）—— 例题 检查一下自己对前端基础知识的掌握吧~  1. var 和let const的区别 var是ES5, let const 是ES6, var有变量提升  var 和 let是变量，可修改，const是常量不可修改  let const有块级作用域，var没有  变量提升： console.log(a);var a &#x3D; 200; &#x2F;&#x2F; un">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg">
+<meta property="article:published_time" content="2019-12-01T12:00:00.000Z">
+<meta property="article:modified_time" content="2020-04-12T14:00:00.000Z">
+<meta property="article:author" content="Lucius Tan">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="面试题">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg"><link rel="shortcut icon" href="/image/favicon.ico"><link rel="canonical" href="https://www.luciustan.online/2019/12/01/fontend_knowledge3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta name="baidu-site-verification" content="Vyebb7k8Nb"/><link rel="manifest" href="/manifest.json"/><link rel="apple-touch-icon" sizes="180x180" href="/images/pwaicons/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/images/pwaicons/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/images/pwaicons/16.png"/><link rel="mask-icon" href="/images/pwaicons/safari-pinned-tab.svg" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c3c92ed26426c2aa73152f1c71045157";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: Lucius Tan","link":"链接: ","source":"来源: L-Zone","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2020-04-12 22:00:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><style type="text/css">.app-refresh{position:fixed;top:-2.2rem;left:0;right:0;z-index:99999;padding:0 1rem;font-size:15px;height:2.2rem;transition:all .3s ease}.app-refresh-wrap{display:flex;color:#fff;height:100%;align-items:center;justify-content:center}.app-refresh-wrap a{color:#fff;text-decoration:underline;cursor:pointer}</style><style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style>‘<div style="margin:0 auto;overflow:hidden;width:0;height:0;display:block;"><img src= "image/wx_avator.jpg" /></div>’<meta name="generator" content="Hexo 5.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="/image/avatar.png" onerror="onerror=null;src='https://z3.ax1x.com/2021/01/22/s5Zy8O.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影片</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://z3.ax1x.com/2021/01/22/sIWlfH.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">L-Zone</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影片</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">前端小知识系列（三）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2019-12-01T12:00:00.000Z" title="发表于 2019-12-01 20:00:00">2019-12-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-04-12T14:00:00.000Z" title="更新于 2020-04-12 22:00:00">2020-04-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%B7%A5%E5%85%B7%E4%B9%A6/">工具书</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="前端小知识系列（三）——-例题"><a href="#前端小知识系列（三）——-例题" class="headerlink" title="前端小知识系列（三）—— 例题"></a>前端小知识系列（三）—— 例题</h2><blockquote>
+<p>检查一下自己对前端基础知识的掌握吧~</p>
+</blockquote>
+<h3 id="1-var-和let-const的区别"><a href="#1-var-和let-const的区别" class="headerlink" title="1. var 和let const的区别"></a>1. var 和let const的区别</h3><ul>
+<li><p>var是ES5, let const 是ES6, var有变量提升</p>
+</li>
+<li><p>var 和 let是变量，可修改，const是常量不可修改</p>
+</li>
+<li><p>let const有块级作用域，var没有</p>
+</li>
+<li><p>变量提升：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">console.log(a);</span><br><span class="line">var a &#x3D; 200; &#x2F;&#x2F; undefined</span><br><span class="line">&#x2F;&#x2F;函数表达式vs函数声明</span><br></pre></td></tr></table></figure>
+<h3 id="2-typeof返回哪些类型？"><a href="#2-typeof返回哪些类型？" class="headerlink" title="2. typeof返回哪些类型？"></a>2. typeof返回哪些类型？</h3></li>
+<li><p>值类型，引用类型，function</p>
+</li>
+<li><p>typeof null === ‘object’</p>
+</li>
+</ul>
+<h3 id="3-列举强制类型转换和隐式类型转换"><a href="#3-列举强制类型转换和隐式类型转换" class="headerlink" title="3. 列举强制类型转换和隐式类型转换"></a>3. 列举强制类型转换和隐式类型转换</h3><ul>
+<li>强制：parseInt parseFloat toString</li>
+<li>隐式：if 逻辑运算 == +拼接字符</li>
+</ul>
+<h3 id="4-手写深度比较，模拟lodash-isEqual"><a href="#4-手写深度比较，模拟lodash-isEqual" class="headerlink" title="4. 手写深度比较，模拟lodash isEqual"></a>4. 手写深度比较，模拟lodash isEqual</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const obj1 &#x3D; &#123;a:100 , b: &#123;x:123, y:321&#125;&#125;</span><br><span class="line">const obj1 &#x3D; &#123;a:100 , b: &#123;x:123, y:321&#125;&#125;</span><br><span class="line">console.log(obj1 &#x3D;&#x3D;&#x3D; obj2) &#x2F;&#x2F;false</span><br><span class="line"></span><br><span class="line">function isObject(obj) &#123;</span><br><span class="line">    return typeof obj &#x3D;&#x3D;&#x3D; &#39;object&#39; &amp;&amp; obj !&#x3D;&#x3D; null;</span><br><span class="line">&#125;</span><br><span class="line">function isEqual(obj1, obj2)&#123;</span><br><span class="line">    if(!isObject(obj1) || !isObject(obj2))&#123;</span><br><span class="line">        return obj1 &#x3D;&#x3D;&#x3D; obj2</span><br><span class="line">    &#125;</span><br><span class="line">    if(obj1 &#x3D;&#x3D;&#x3D; obj2)&#123;</span><br><span class="line">        return true;</span><br><span class="line">    &#125;</span><br><span class="line">    const obj1keys &#x3D; Object.keys(obj1);</span><br><span class="line">    const obj2keys &#x3D; Object.keys(obj2);</span><br><span class="line">    if(obj1keys.length !&#x3D;&#x3D; obj2keys.length)&#123;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line">    for(let key in obj1)&#123;</span><br><span class="line">        const res &#x3D; isEqual(obj1[key], obj2[key])</span><br><span class="line">        if(!res) &#123;</span><br><span class="line">            return false;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return true</span><br><span class="line">&#125;</span><br><span class="line">isEqual(obj1, obj2)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="5-split-和join-区别"><a href="#5-split-和join-区别" class="headerlink" title="5. split()和join()区别"></a>5. split()和join()区别</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#39;1-2-3&#39;.split(&#39;-&#39;); &#x2F;&#x2F; [1,2,3]</span><br><span class="line">[1,2,3].join(&#39;-&#39;); &#x2F;&#x2F; &#39;1-2-3&#39;</span><br></pre></td></tr></table></figure>
+<h3 id="6-数组的pop-push-unshift-shift分别做什么，功能是什么，返回值是什么，是否对原数组造成影响"><a href="#6-数组的pop-push-unshift-shift分别做什么，功能是什么，返回值是什么，是否对原数组造成影响" class="headerlink" title="6. 数组的pop push unshift shift分别做什么，功能是什么，返回值是什么，是否对原数组造成影响"></a>6. 数组的pop push unshift shift分别做什么，功能是什么，返回值是什么，是否对原数组造成影响</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const arr &#x3D; [10,20,30,40]</span><br><span class="line">const popRes &#x3D; arr.pop()</span><br><span class="line">console.log(popRes, arr) &#x2F;&#x2F; 40 [10,20,30]</span><br><span class="line"></span><br><span class="line">const pushRes &#x3D; arr.push(50)</span><br><span class="line">console.log(pushRes, arr) &#x2F;&#x2F; 返回length 5 [10,20,30,40,50]</span><br><span class="line"></span><br><span class="line">const unshiftRes&#x3D; arr.unshift(5)</span><br><span class="line">console.log(unshiftRes, arr) &#x2F;&#x2F;返回length 5 [5,10,20,30,40]</span><br><span class="line"></span><br><span class="line">const shiftRes&#x3D; arr.unshift()</span><br><span class="line">console.log(shiftRes, arr) &#x2F;&#x2F;10 [20,30,40]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>数组的API哪些是纯函数，1,不改变原数组，2,返回一个数组</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;concat </span><br><span class="line">const arr1 &#x3D; arr.concat([50,60,70])</span><br><span class="line">console.log(arr); &#x2F;&#x2F; [10,20,30,40]</span><br><span class="line">console.log(arr1) &#x2F;&#x2F; [10,20,30,40,50,60,70]</span><br><span class="line">&#x2F;&#x2F;map</span><br><span class="line">const arr2 &#x3D; arr.map(num &#x3D;&gt; num*10)</span><br><span class="line">&#x2F;&#x2F;filter</span><br><span class="line">const arr3 &#x3D; arr.filter(num &#x3D;&gt; num&gt;25)</span><br><span class="line">&#x2F;&#x2F;slice</span><br><span class="line">const arr4 &#x3D; arr.slice()</span><br></pre></td></tr></table></figure>
+<ul>
+<li>非纯函数 <code>push /pop /shift /unshift /forEach /some /every /reduce</code></li>
+</ul>
+<h3 id="7-数组slice和splice区别"><a href="#7-数组slice和splice区别" class="headerlink" title="7. 数组slice和splice区别"></a>7. 数组slice和splice区别</h3><ul>
+<li>功能区别： 参数和返回值：</li>
+<li>纯函数：slice是纯函数 splice不是</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const arr &#x3D; [10,20,30,40,50]</span><br><span class="line">&#x2F;&#x2F;slice</span><br><span class="line">const arr1 &#x3D; arr.slice(); &#x2F;&#x2F;[10,20,30,40,50]</span><br><span class="line">const arr2 &#x3D; arr.slice(1, 4) &#x2F;&#x2F;[20,30,40]</span><br><span class="line">const arr2 &#x3D; arr.slice(2) &#x2F;&#x2F;[30,40,50]</span><br><span class="line">const arr4 &#x3D; arr.slice(-2) &#x2F;&#x2F; [40,50]</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;splice</span><br><span class="line">const spliceRes1 &#x3D; arr.aplice(1, 2, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;) &#x2F;&#x2F;[20,30] [10, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;,40,50]</span><br><span class="line">const spliceRes2 &#x3D; arr.aplice(1, 2) &#x2F;&#x2F;[20,30] [10,40,50]</span><br><span class="line">const spliceRes3 &#x3D; arr.aplice(1, 0, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;) &#x2F;&#x2F;[] [10,20,&#39;a&#39;, &#39;b&#39;, &#39;c&#39;,30,40,50]</span><br><span class="line">console.log(spliceRes, arr)</span><br></pre></td></tr></table></figure>
+<h3 id="8-10-20-30-map-parseInt-返回结果是什么"><a href="#8-10-20-30-map-parseInt-返回结果是什么" class="headerlink" title="8. [10, 20, 30].map(parseInt)返回结果是什么"></a>8. <code>[10, 20, 30].map(parseInt)</code>返回结果是什么</h3><ul>
+<li><p>答案：<code>[10, NaN, NaN]</code></p>
+</li>
+<li><p>map的参数和返回值</p>
+</li>
+<li><p>parseInt的参数和返回值</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;拆解</span><br><span class="line">[10,20,30].map((num, index) &#x3D;&gt; &#123;</span><br><span class="line">return parseInt(num, index)</span><br><span class="line">&#125;)</span><br><span class="line">parseInt(10, 0) &#x2F;&#x2F; 10 parseInt(10, 10)</span><br><span class="line">parseInt(20, 1) &#x2F;&#x2F; NAN</span><br><span class="line">parseInt(30, 2) &#x2F;&#x2F; NAN</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="9-ajax请求get和post区别"><a href="#9-ajax请求get和post区别" class="headerlink" title="9. ajax请求get和post区别"></a>9. ajax请求get和post区别</h3><ul>
+<li>get一般用于查询，post一般用于提交</li>
+<li>get参数拼接在url上，post放在请求体内</li>
+<li>post易于防止XSRF</li>
+</ul>
+<h3 id="10-函数call和apply的区别"><a href="#10-函数call和apply的区别" class="headerlink" title="10. 函数call和apply的区别"></a>10. 函数call和apply的区别</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">fn.call(this.p1,p2,p3)</span><br><span class="line">fn.apply(this.arguments)</span><br></pre></td></tr></table></figure>
+
+<h3 id="11-事件代理（委托）是什么"><a href="#11-事件代理（委托）是什么" class="headerlink" title="11. 事件代理（委托）是什么"></a>11. 事件代理（委托）是什么</h3><ul>
+<li>联系事件冒泡</li>
+</ul>
+<h3 id="12-闭包是什么，有什么特性，有什么负面影响"><a href="#12-闭包是什么，有什么特性，有什么负面影响" class="headerlink" title="12. 闭包是什么，有什么特性，有什么负面影响"></a>12. 闭包是什么，有什么特性，有什么负面影响</h3><ul>
+<li>作用域和自由变量</li>
+<li>应用场景：函数作为参数被传入，作为返回值被返回</li>
+<li>自由变量的查找，在定义的地方查找，不在执行的地方查找</li>
+<li>影响：变量会常驻内存，得不到释放。闭包不要乱用。</li>
+</ul>
+<h3 id="13-如何阻止事件冒泡和默认行为"><a href="#13-如何阻止事件冒泡和默认行为" class="headerlink" title="13. 如何阻止事件冒泡和默认行为"></a>13. 如何阻止事件冒泡和默认行为</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">event.preventDefault();</span><br><span class="line">e.stopPropagation(); </span><br></pre></td></tr></table></figure>
+<h4 id="14-查找，添加，删除，移动DOM节点的方法"><a href="#14-查找，添加，删除，移动DOM节点的方法" class="headerlink" title="14. 查找，添加，删除，移动DOM节点的方法"></a>14. 查找，添加，删除，移动DOM节点的方法</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ele.getElementById()...........TagName, ClassName, querySelectorAll</span><br><span class="line">setAttribute&#x2F;getAttribute</span><br><span class="line">ele.appendChild</span><br><span class="line">ele.removeChild</span><br><span class="line">&#x2F;&#x2F;移动：先获取再插入</span><br></pre></td></tr></table></figure>
+<h3 id="15-如何减少DOM操作"><a href="#15-如何减少DOM操作" class="headerlink" title="15. 如何减少DOM操作"></a>15. 如何减少DOM操作</h3><ul>
+<li>缓存DOM查询结果，多次查询时可以一次查询赋值到list里</li>
+<li>多次DOM操作，插入多个元素，可以合并到某个新建变量里，然后一次插入</li>
+</ul>
+<h3 id="16-解释jsonp原理，为何他不是真正的ajax"><a href="#16-解释jsonp原理，为何他不是真正的ajax" class="headerlink" title="16. 解释jsonp原理，为何他不是真正的ajax"></a>16. 解释jsonp原理，为何他不是真正的ajax</h3><ul>
+<li>jsonp是通过script标签实现，ajax是通过XMLHttpRequest实现</li>
+<li>浏览器的同源策略（后端、服务端没有同源策略，一般称为转发）和跨域</li>
+<li>哪些html标签能绕过跨域。script img</li>
+</ul>
+<h3 id="17-document-load和ready的区别"><a href="#17-document-load和ready的区别" class="headerlink" title="17. document load和ready的区别"></a>17. document load和ready的区别</h3><ul>
+<li>load: 页面全部资源加载完执行</li>
+<li>document load: DOM渲染完成即可执行，此时图片视频可能还未加载完</li>
+</ul>
+<h3 id="18-和-的不同"><a href="#18-和-的不同" class="headerlink" title="18. ==和===的不同"></a>18. ==和===的不同</h3><ul>
+<li>==会尝试类型转换</li>
+<li>=== 严格相等</li>
+<li>只有 == null 用==</li>
+</ul>
+<h3 id="19-函数声明和函数表达式的区别"><a href="#19-函数声明和函数表达式的区别" class="headerlink" title="19. 函数声明和函数表达式的区别"></a>19. 函数声明和函数表达式的区别</h3><ul>
+<li>函数声明：function fn(){…}</li>
+<li>函数表达式：const fn = function(){…}</li>
+<li>函数声明会再执行代码前预加载，函数表达式不会</li>
+<li>结合变量提升</li>
+</ul>
+<h3 id="20-new-Object-和-Object-create-的区别"><a href="#20-new-Object-和-Object-create-的区别" class="headerlink" title="20. new Object() 和 Object.create()的区别"></a>20. new Object() 和 Object.create()的区别</h3><ul>
+<li>{}等同于 new Object(), 原型Object.prototype</li>
+<li>Object.create(null)没有原型</li>
+<li>Object.create({…})可指定原型</li>
+</ul>
+<h3 id="21-关于this的场景题"><a href="#21-关于this的场景题" class="headerlink" title="21. 关于this的场景题"></a>21. 关于this的场景题</h3><ul>
+<li>函数中使用</li>
+<li>箭头函数中使用</li>
+<li>class中使用</li>
+<li>作为对象方法被调用</li>
+<li>call、apply、bind中调用</li>
+</ul>
+<p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2f1WHU.png"></p>
+<h3 id="22-关于作用域和自由变量场景题-1"><a href="#22-关于作用域和自由变量场景题-1" class="headerlink" title="22. 关于作用域和自由变量场景题-1"></a>22. 关于作用域和自由变量场景题-1</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2f38VU.png"></p>
+<h3 id="22-判断字符串以字母开头，后面字母数组下划线，长度6-30"><a href="#22-判断字符串以字母开头，后面字母数组下划线，长度6-30" class="headerlink" title="22. 判断字符串以字母开头，后面字母数组下划线，长度6-30"></a>22. 判断字符串以字母开头，后面字母数组下划线，长度6-30</h3><p><code>const reg = /^[a-zA-Z]\w&#123;5,29&#125;$/</code></p>
+<h3 id="23-关于作用域和自由变量的场景题-2"><a href="#23-关于作用域和自由变量的场景题-2" class="headerlink" title="23. 关于作用域和自由变量的场景题-2"></a>23. 关于作用域和自由变量的场景题-2</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2f8VL6.png"></p>
+<h3 id="24-手写字符串trim方法，保证浏览器兼容性"><a href="#24-手写字符串trim方法，保证浏览器兼容性" class="headerlink" title="24. 手写字符串trim方法，保证浏览器兼容性"></a>24. 手写字符串trim方法，保证浏览器兼容性</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2f8aFg.png"></p>
+<h3 id="25-如何获取多个数字中的最大值"><a href="#25-如何获取多个数字中的最大值" class="headerlink" title="25. 如何获取多个数字中的最大值"></a>25. 如何获取多个数字中的最大值</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2f8cwT.png"></p>
+<h3 id="26-如何用js实现继承"><a href="#26-如何用js实现继承" class="headerlink" title="26. 如何用js实现继承"></a>26. 如何用js实现继承</h3><ul>
+<li>class 继承</li>
+<li>prototype继承</li>
+</ul>
+<h3 id="27-如何捕获js程序异常"><a href="#27-如何捕获js程序异常" class="headerlink" title="27. 如何捕获js程序异常"></a>27. 如何捕获js程序异常</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fGKBV.png"></p>
+<h3 id="28-什么是json"><a href="#28-什么是json" class="headerlink" title="28. 什么是json"></a>28. 什么是json</h3><ul>
+<li>json是一种数据格式，本质是一段字符串</li>
+<li>json格式和js对象结构一致，对js语言更友好</li>
+<li><code>windows.JSON</code>是一个全局对象 <code>JSON.stringify JSON.parse</code></li>
+</ul>
+<h3 id="29-获取当前页面url参数"><a href="#29-获取当前页面url参数" class="headerlink" title="29. 获取当前页面url参数"></a>29. 获取当前页面url参数</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fG4US.png"></p>
+<h3 id="30-将url参数解析为js对象"><a href="#30-将url参数解析为js对象" class="headerlink" title="30. 将url参数解析为js对象"></a>30. 将url参数解析为js对象</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fGLD0.png"></p>
+<h3 id="31-手写数组flatern，考虑多层级"><a href="#31-手写数组flatern，考虑多层级" class="headerlink" title="31. 手写数组flatern，考虑多层级"></a>31. 手写数组flatern，考虑多层级</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fJ929.png"></p>
+<h3 id="32-数组去重"><a href="#32-数组去重" class="headerlink" title="32. 数组去重"></a>32. 数组去重</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fJGa8.png"></p>
+<h3 id="33-手写深拷贝"><a href="#33-手写深拷贝" class="headerlink" title="33. 手写深拷贝"></a>33. 手写深拷贝</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fJ4qx.png"></p>
+<h3 id="34-介绍一下RAF-requestAnimationFrame"><a href="#34-介绍一下RAF-requestAnimationFrame" class="headerlink" title="34. 介绍一下RAF requestAnimationFrame"></a>34. 介绍一下RAF requestAnimationFrame</h3><p><img src= "/image/slots/loading.gif" data-lazy-src="https://z3.ax1x.com/2021/06/11/2fJjsI.png"></p>
+<h3 id="35-前端性能如何优化，一般从哪些方面考虑"><a href="#35-前端性能如何优化，一般从哪些方面考虑" class="headerlink" title="35. 前端性能如何优化，一般从哪些方面考虑"></a>35. 前端性能如何优化，一般从哪些方面考虑</h3><ul>
+<li>多使用内存、缓存，减少计算、减少网路请求</li>
+<li>方向：加载页面，页面渲染，页面操作流畅度</li>
+</ul>
+<blockquote>
+<p>持续更新…….</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:luciustan1421@gmail.com">Lucius Tan</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.luciustan.online/2019/12/01/fontend_knowledge3/">https://www.luciustan.online/2019/12/01/fontend_knowledge3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.luciustan.online" target="_blank">L-Zone</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/">前端</a><a class="post-meta__tags" href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a></div><div class="post_share"><div class="social-share" data-image="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/image/wechat.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/image/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/image/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="/image/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2020/03/02/koa-note-1/"><img class="prev-cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sI2TPJ.jpg" onerror="onerror=null;src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Koa学习记录</div></div></a></div><div class="next-post pull-right"><a href="/2019/11/27/fontend_knowledge2/"><img class="next-cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" onerror="onerror=null;src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">前端小知识系列（二）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2019/11/27/fontend_knowledge2/" title="前端小知识系列（二）"><img class="cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2019-11-27</div><div class="title">前端小知识系列（二）</div></div></a></div><div><a href="/2020/05/26/dev-environment/" title="前端开发环境搭建"><img class="cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-26</div><div class="title">前端开发环境搭建</div></div></a></div><div><a href="/2019/11/26/fontend_knowledge1/" title="前端小知识系列（一）"><img class="cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2019-11-26</div><div class="title">前端小知识系列（一）</div></div></a></div><div><a href="/2020/03/04/frame-note-1/" title="前端框架选型"><img class="cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-03-04</div><div class="title">前端框架选型</div></div></a></div><div><a href="/2020/05/07/image_verification_code/" title="如何使用图形验证码"><img class="cover" data-lazy-src="https://z3.ax1x.com/2021/06/08/2sG5X4.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-07</div><div class="title">如何使用图形验证码</div></div></a></div><div><a href="/2019/11/21/jq-note-2/" title="jQuery学习之选择器"><img class="cover" data-lazy-src="https://z3.ax1x.com/2021/01/22/sI27G9.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2019-11-21</div><div class="title">jQuery学习之选择器</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="lv-container" data-id="city" data-uid="MTAyMC81MjQ5MS8yODk2OQ=="></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="/image/avatar.png" onerror="this.onerror=null;this.src='https://z3.ax1x.com/2021/01/22/s5Zy8O.gif'" alt="avatar"/><div class="author-info__name">Lucius Tan</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/LuciusTan" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:luciustan1421@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://weibo.com/u/3224327731?is_all=1" target="_blank" title="Weibo"><i class="fab fa-weibo"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">Welcome to my zone</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%AB%AF%E5%B0%8F%E7%9F%A5%E8%AF%86%E7%B3%BB%E5%88%97%EF%BC%88%E4%B8%89%EF%BC%89%E2%80%94%E2%80%94-%E4%BE%8B%E9%A2%98"><span class="toc-text">前端小知识系列（三）—— 例题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-var-%E5%92%8Clet-const%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">1. var 和let const的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-typeof%E8%BF%94%E5%9B%9E%E5%93%AA%E4%BA%9B%E7%B1%BB%E5%9E%8B%EF%BC%9F"><span class="toc-text">2. typeof返回哪些类型？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%88%97%E4%B8%BE%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E5%92%8C%E9%9A%90%E5%BC%8F%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-text">3. 列举强制类型转换和隐式类型转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%89%8B%E5%86%99%E6%B7%B1%E5%BA%A6%E6%AF%94%E8%BE%83%EF%BC%8C%E6%A8%A1%E6%8B%9Flodash-isEqual"><span class="toc-text">4. 手写深度比较，模拟lodash isEqual</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-split-%E5%92%8Cjoin-%E5%8C%BA%E5%88%AB"><span class="toc-text">5. split()和join()区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%95%B0%E7%BB%84%E7%9A%84pop-push-unshift-shift%E5%88%86%E5%88%AB%E5%81%9A%E4%BB%80%E4%B9%88%EF%BC%8C%E5%8A%9F%E8%83%BD%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E8%BF%94%E5%9B%9E%E5%80%BC%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E6%98%AF%E5%90%A6%E5%AF%B9%E5%8E%9F%E6%95%B0%E7%BB%84%E9%80%A0%E6%88%90%E5%BD%B1%E5%93%8D"><span class="toc-text">6. 数组的pop push unshift shift分别做什么，功能是什么，返回值是什么，是否对原数组造成影响</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E6%95%B0%E7%BB%84slice%E5%92%8Csplice%E5%8C%BA%E5%88%AB"><span class="toc-text">7. 数组slice和splice区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-10-20-30-map-parseInt-%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-text">8. [10, 20, 30].map(parseInt)返回结果是什么</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-ajax%E8%AF%B7%E6%B1%82get%E5%92%8Cpost%E5%8C%BA%E5%88%AB"><span class="toc-text">9. ajax请求get和post区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-%E5%87%BD%E6%95%B0call%E5%92%8Capply%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">10. 函数call和apply的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#11-%E4%BA%8B%E4%BB%B6%E4%BB%A3%E7%90%86%EF%BC%88%E5%A7%94%E6%89%98%EF%BC%89%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-text">11. 事件代理（委托）是什么</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-%E9%97%AD%E5%8C%85%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E6%80%A7%EF%BC%8C%E6%9C%89%E4%BB%80%E4%B9%88%E8%B4%9F%E9%9D%A2%E5%BD%B1%E5%93%8D"><span class="toc-text">12. 闭包是什么，有什么特性，有什么负面影响</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#13-%E5%A6%82%E4%BD%95%E9%98%BB%E6%AD%A2%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%E5%92%8C%E9%BB%98%E8%AE%A4%E8%A1%8C%E4%B8%BA"><span class="toc-text">13. 如何阻止事件冒泡和默认行为</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#14-%E6%9F%A5%E6%89%BE%EF%BC%8C%E6%B7%BB%E5%8A%A0%EF%BC%8C%E5%88%A0%E9%99%A4%EF%BC%8C%E7%A7%BB%E5%8A%A8DOM%E8%8A%82%E7%82%B9%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-text">14. 查找，添加，删除，移动DOM节点的方法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#15-%E5%A6%82%E4%BD%95%E5%87%8F%E5%B0%91DOM%E6%93%8D%E4%BD%9C"><span class="toc-text">15. 如何减少DOM操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#16-%E8%A7%A3%E9%87%8Ajsonp%E5%8E%9F%E7%90%86%EF%BC%8C%E4%B8%BA%E4%BD%95%E4%BB%96%E4%B8%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84ajax"><span class="toc-text">16. 解释jsonp原理，为何他不是真正的ajax</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#17-document-load%E5%92%8Cready%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">17. document load和ready的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#18-%E5%92%8C-%E7%9A%84%E4%B8%8D%E5%90%8C"><span class="toc-text">18. &#x3D;&#x3D;和&#x3D;&#x3D;&#x3D;的不同</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#19-%E5%87%BD%E6%95%B0%E5%A3%B0%E6%98%8E%E5%92%8C%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">19. 函数声明和函数表达式的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#20-new-Object-%E5%92%8C-Object-create-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">20. new Object() 和 Object.create()的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#21-%E5%85%B3%E4%BA%8Ethis%E7%9A%84%E5%9C%BA%E6%99%AF%E9%A2%98"><span class="toc-text">21. 关于this的场景题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#22-%E5%85%B3%E4%BA%8E%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E8%87%AA%E7%94%B1%E5%8F%98%E9%87%8F%E5%9C%BA%E6%99%AF%E9%A2%98-1"><span class="toc-text">22. 关于作用域和自由变量场景题-1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#22-%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BB%A5%E5%AD%97%E6%AF%8D%E5%BC%80%E5%A4%B4%EF%BC%8C%E5%90%8E%E9%9D%A2%E5%AD%97%E6%AF%8D%E6%95%B0%E7%BB%84%E4%B8%8B%E5%88%92%E7%BA%BF%EF%BC%8C%E9%95%BF%E5%BA%A66-30"><span class="toc-text">22. 判断字符串以字母开头，后面字母数组下划线，长度6-30</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#23-%E5%85%B3%E4%BA%8E%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E8%87%AA%E7%94%B1%E5%8F%98%E9%87%8F%E7%9A%84%E5%9C%BA%E6%99%AF%E9%A2%98-2"><span class="toc-text">23. 关于作用域和自由变量的场景题-2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#24-%E6%89%8B%E5%86%99%E5%AD%97%E7%AC%A6%E4%B8%B2trim%E6%96%B9%E6%B3%95%EF%BC%8C%E4%BF%9D%E8%AF%81%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E6%80%A7"><span class="toc-text">24. 手写字符串trim方法，保证浏览器兼容性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#25-%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E5%A4%9A%E4%B8%AA%E6%95%B0%E5%AD%97%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC"><span class="toc-text">25. 如何获取多个数字中的最大值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#26-%E5%A6%82%E4%BD%95%E7%94%A8js%E5%AE%9E%E7%8E%B0%E7%BB%A7%E6%89%BF"><span class="toc-text">26. 如何用js实现继承</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#27-%E5%A6%82%E4%BD%95%E6%8D%95%E8%8E%B7js%E7%A8%8B%E5%BA%8F%E5%BC%82%E5%B8%B8"><span class="toc-text">27. 如何捕获js程序异常</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#28-%E4%BB%80%E4%B9%88%E6%98%AFjson"><span class="toc-text">28. 什么是json</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#29-%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E9%A1%B5%E9%9D%A2url%E5%8F%82%E6%95%B0"><span class="toc-text">29. 获取当前页面url参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#30-%E5%B0%86url%E5%8F%82%E6%95%B0%E8%A7%A3%E6%9E%90%E4%B8%BAjs%E5%AF%B9%E8%B1%A1"><span class="toc-text">30. 将url参数解析为js对象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#31-%E6%89%8B%E5%86%99%E6%95%B0%E7%BB%84flatern%EF%BC%8C%E8%80%83%E8%99%91%E5%A4%9A%E5%B1%82%E7%BA%A7"><span class="toc-text">31. 手写数组flatern，考虑多层级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#32-%E6%95%B0%E7%BB%84%E5%8E%BB%E9%87%8D"><span class="toc-text">32. 数组去重</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#33-%E6%89%8B%E5%86%99%E6%B7%B1%E6%8B%B7%E8%B4%9D"><span class="toc-text">33. 手写深拷贝</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#34-%E4%BB%8B%E7%BB%8D%E4%B8%80%E4%B8%8BRAF-requestAnimationFrame"><span class="toc-text">34. 介绍一下RAF requestAnimationFrame</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#35-%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96%EF%BC%8C%E4%B8%80%E8%88%AC%E4%BB%8E%E5%93%AA%E4%BA%9B%E6%96%B9%E9%9D%A2%E8%80%83%E8%99%91"><span class="toc-text">35. 前端性能如何优化，一般从哪些方面考虑</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2020/06/01/NoSQL/" title="NoSQL的设计与集成"><img data-lazy-src="https://z3.ax1x.com/2021/06/09/2shyz8.jpg" onerror="this.onerror=null;this.src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="NoSQL的设计与集成"/></a><div class="content"><a class="title" href="/2020/06/01/NoSQL/" title="NoSQL的设计与集成">NoSQL的设计与集成</a><time datetime="2020-06-01T12:00:00.000Z" title="发表于 2020-06-01 20:00:00">2020-06-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/05/26/dev-environment/" title="前端开发环境搭建"><img data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" onerror="this.onerror=null;this.src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="前端开发环境搭建"/></a><div class="content"><a class="title" href="/2020/05/26/dev-environment/" title="前端开发环境搭建">前端开发环境搭建</a><time datetime="2020-05-26T12:00:00.000Z" title="发表于 2020-05-26 20:00:00">2020-05-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/05/07/image_verification_code/" title="如何使用图形验证码"><img data-lazy-src="https://z3.ax1x.com/2021/06/08/2sG5X4.jpg" onerror="this.onerror=null;this.src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="如何使用图形验证码"/></a><div class="content"><a class="title" href="/2020/05/07/image_verification_code/" title="如何使用图形验证码">如何使用图形验证码</a><time datetime="2020-05-07T10:00:00.000Z" title="发表于 2020-05-07 18:00:00">2020-05-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/08/vue-note-1/" title="Vue基础知识梳理"><img data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWj4e.jpg" onerror="this.onerror=null;this.src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="Vue基础知识梳理"/></a><div class="content"><a class="title" href="/2020/03/08/vue-note-1/" title="Vue基础知识梳理">Vue基础知识梳理</a><time datetime="2020-03-08T12:00:00.000Z" title="发表于 2020-03-08 20:00:00">2020-03-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/04/frame-note-1/" title="前端框架选型"><img data-lazy-src="https://z3.ax1x.com/2021/01/22/sIWlfH.jpg" onerror="this.onerror=null;this.src='https://z3.ax1x.com/2021/01/22/s5Z0V1.jpg'" alt="前端框架选型"/></a><div class="content"><a class="title" href="/2020/03/04/frame-note-1/" title="前端框架选型">前端框架选型</a><time datetime="2020-03-04T12:00:00.000Z" title="发表于 2020-03-04 20:00:00">2020-03-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By Lucius Tan</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>function loadLivere () {
+  if (typeof LivereTower === 'object') {
+    window.LivereTower.init()
+  }
+  else {
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  }
+}
+
+if ('Livere' === 'Livere' || !true) {
+  if (true) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+  else loadLivere()
+}
+else {
+  function loadOtherComment () {
+    loadLivere()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div class="app-refresh" id="app-refresh"> <div class="app-refresh-wrap"> <label>✨ 网站有最新版本更新 👉</label> <a href="javascript:void(0)" onclick="location.reload()">点击刷新</a> </div></div><script>function showNotification(){if(GLOBAL_CONFIG.Snackbar){var t="light"===document.documentElement.getAttribute("data-theme")?GLOBAL_CONFIG.Snackbar.bgLight:GLOBAL_CONFIG.Snackbar.bgDark,e=GLOBAL_CONFIG.Snackbar.position;Snackbar.show({text:"网站有更新啦",backgroundColor:t,duration:5e5,pos:e,actionText:"点击刷新",actionTextColor:"#fff",onActionClick:function(t){location.reload()}})}else{var o=`top: 0; background: ${"light"===document.documentElement.getAttribute("data-theme")?"#49b1f5":"#1f1f1f"};`;document.getElementById("app-refresh").style.cssText=o}}"serviceWorker"in navigator&&(navigator.serviceWorker.controller&&navigator.serviceWorker.addEventListener("controllerchange",function(){showNotification()}),window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js")}));</script><div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script>(function(d, w, c) {
+    w.ChatraID = 'kocEw6Fhw36yAw89p';
+    var s = d.createElement('script');
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+    };
+    s.async = true;
+    s.src = 'https://call.chatra.io/chatra.js';
+    if (d.head) d.head.appendChild(s);
+})(document, window, 'Chatra');
+
+if (true) {
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      Chatra('openChat')
+    });
+  }
+  chatBtnFn()
+} else {
+  if (false) {
+    function chatBtnHide () {
+      Chatra('hide')
+    }
+    function chatBtnShow () {
+      Chatra('show')
+    }
+  }
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/SerokSSR/cdn/meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config_change',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (true) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/music/"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+
+document.addEventListener('pjax:send', function () {
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})</script><script>(function(){
+  const bp = document.createElement('script');
+  const curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  bp.dataset.pjax = ''
+  const s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})()</script></div></body></html>
