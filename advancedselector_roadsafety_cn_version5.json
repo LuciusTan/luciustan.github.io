@@ -1,0 +1,2634 @@
+{
+   "icons": {
+      "dir": "https://multimedia.3m.com/mws/media/",
+      "files": {
+         "Dangeroustruck": {
+            "file": "2300284O/conspicuity-selector-icon-for-dangerous-truck-tsd.png",
+            "alt": "危险品及货车"
+         },
+         "Bus": {
+            "file": "2300285O/conspicuity-selector-icon-for-bus-tsd.png",
+            "alt": "客车"
+         },
+         "2-wheelervehicle": {
+            "file": "2300286O/conspicuity-selector-icon-for-2-wheeler-vehicle-tsd.png",
+            "alt": "两轮车"
+         },
+         "Emergencyvehicle": {
+            "file": "2300287O/conspicuity-selector-icon-for-emergency-vehicle-tsd.png",
+            "alt": "应急车辆"
+         },
+         "Truck": {
+            "file": "2300288O/conspicuity-selector-icon-for-truck-tsd.png",
+            "alt": "货车"
+         },
+         "Schoolbus": {
+            "file": "2300289O/conspicuity-selector-icon-for-school-bus-tsd.png",
+            "alt": "校车"
+         },
+         "3-wheelervehicle": {
+            "file": "2300290O/conspicuity-selector-icon-for-3-wheeler-vehicle-tsd.png",
+            "alt": "三轮车"
+         },
+         "Warningsticker": {
+            "file": "2300291O/conspicuity-selector-icon-for-warning-sticker-tsd.png",
+            "alt": "安全警示"
+         },
+         "Recreationalvehicle": {
+            "file": "2300292O/conspicuity-selector-icon-for-recreational-vehicle-tsd.png",
+            "alt": "房车"
+         },
+         "Pickuptruck": {
+            "file": "2300293O/conspicuity-selector-icon-for-pickup-truck-tsd.png",
+            "alt": "多用途货车(皮卡)"
+         },
+         "Passengercar": {
+            "file": "2300295O/conspicuity-selector-icon-for-passenger-car-tsd.png",
+            "alt": "乘用车"
+         },
+         "Functionsticker": {
+            "file": "2300296O/conspicuity-selector-icon-for-function-sticker-tsd.png",
+            "alt": "功能辅助"
+         },
+         "LOGOsticker": {
+            "file": "2300297O/conspicuity-selector-icon-for-logo-sticker-tsd.png",
+            "alt": "品牌突显"
+         },
+         "Patternsticker": {
+            "file": "2300298O/conspicuity-selector-icon-for-pattern-sticker-tsd.png",
+            "alt": "造型贴花"
+         }
+      }
+   },
+   "products": {
+      "0001": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS", "TRUCK", "RV", "PASSENGER"],
+            "t2": ["TRAILERS-REG-BODY", "EMRGNCY-REG-BODY", "TRICYCLE-REG", "DANGEROUS-REG-BODY", "TRUCK-HIGHLIGHT", "PASSENGER-HIGHLIGHT", "RV-HIGHLIGHT"],
+            "t3": ["TRAILERS-REG-BODY-GRADE1", "EMRGNCY-REG-BODY-GRADE1", "TRICYCLE-REG-GRADE1", "DANGEROUS-REG-BODY-GRADE1"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 一级车身反光标识 983-326， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 1 卷/箱， 半切",
+         "description": "",
+         "number": "3M™ 一级车身反光标识 983-326， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 1 卷/箱， 半切",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1724620D",
+            "alt": "3M™ 车身反光标识 983-326"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548209/"
+      },
+      "0002": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS", "TRUCK", "RV", "PASSENGER"],
+            "t2": ["TRAILERS-REG-BODY", "EMRGNCY-REG-BODY", "TRICYCLE-REG", "DANGEROUS-REG-BODY", "TRUCK-HIGHLIGHT", "PASSENGER-HIGHLIGHT", "RV-HIGHLIGHT"],
+            "t3": ["TRAILERS-REG-BODY-GRADE1", "EMRGNCY-REG-BODY-GRADE1", "TRICYCLE-REG-GRADE1", "DANGEROUS-REG-BODY-GRADE1"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 一级车身反光标识 983-326， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 1 卷/箱， 非半切",
+         "description": "",
+         "number": "3M™ 一级车身反光标识 983-326， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 1 卷/箱， 非半切",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1724620D",
+            "alt": "3M™ 车身反光标识 983-326"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548219/"
+      },
+      "0003": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS", "TRUCK", "RV", "PASSENGER"],
+            "t2": ["TRAILERS-REG-BODY", "EMRGNCY-REG-BODY", "TRICYCLE-REG", "DANGEROUS-REG-BODY", "TRUCK-HIGHLIGHT", "PASSENGER-HIGHLIGHT", "RV-HIGHLIGHT"],
+            "t3": ["TRAILERS-REG-BODY-GRADE2", "EMRGNCY-REG-BODY-GRADE2", "TRICYCLE-REG-GRADE2", "DANGEROUS-REG-BODY-GRADE2"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 二级车身反光标识新 983D， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 12 卷/箱， 半切",
+         "description": "",
+         "number": "3M™ 二级车身反光标识新 983D， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 12 卷/箱， 半切",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1724621D",
+            "alt": "3M™ 二级车身反光标识新 983D, 红/白, 5 厘米 x 45.7 米 (2 英寸 x 50 码), 12 卷/箱, 半切"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548217/"
+      },
+      "0004": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS", "TRUCK", "RV", "PASSENGER"],
+            "t2": ["TRAILERS-REG-BODY", "EMRGNCY-REG-BODY", "TRICYCLE-REG", "DANGEROUS-REG-BODY", "TRUCK-HIGHLIGHT", "PASSENGER-HIGHLIGHT", "RV-HIGHLIGHT"],
+            "t3": ["TRAILERS-REG-BODY-GRADE2", "EMRGNCY-REG-BODY-GRADE2", "TRICYCLE-REG-GRADE2", "DANGEROUS-REG-BODY-GRADE2"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 车身反光标识（二级） 983D， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 12 卷/箱， 非半切 普通品",
+         "description": "",
+         "number": "3M™ 车身反光标识（二级） 983D， 红/白， 5 厘米 x 45.7 米 (2 英寸 x 50 码)， 12 卷/箱， 非半切 普通品",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1421872D",
+            "alt": "3M™ 二级车身反光标识新 983D, 红/白, 5 厘米 x 45.7 米 (2 英寸 x 50 码), 12 卷/箱, 半切"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548223/"
+      },
+      "0005": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4097， 绿色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4097， 绿色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422201D",
+            "alt": "3M™ 钻石级反光膜 4097， 绿色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548588/"
+      },
+      "0006": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4099， 棕色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4099， 棕色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1270501D",
+            "alt": "3M™ 钻石级反光膜 4099， 棕色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548585/"
+      },
+      "0007": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4090， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4090， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422214D",
+            "alt": "3M™ 钻石级反光膜 4090， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548579/"
+      },
+      "0008": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Diamond Grade™ 钻石级数码打印专用膜 4090DS， 白色， 48 英寸 x 50 码， 1 卷/箱",
+         "description": "",
+         "number": "3M™ Diamond Grade™ 钻石级数码打印专用膜 4090DS， 白色， 48 英寸 x 50 码， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1182732D",
+            "alt": "3M™ Diamond Grade™ 钻石级数码打印专用膜 4090DS， 白色， 48 英寸 x 50 码， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000253596/"
+      },
+      "0009": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4092， 红色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4092， 红色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422221D",
+            "alt": "3M™ 钻石级反光膜 4092， 红色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548599/"
+      },
+      "0010": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Diamond Grade™ 钻石级透光膜 4090T， 白色， 0.94米 x 45.72米， 1卷/箱",
+         "description": "",
+         "number": "3M™ Diamond Grade™ 钻石级透光膜 4090T， 白色， 0.94米 x 45.72米， 1卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1270492D",
+            "alt": "3M™ Diamond Grade™ 钻石级透光膜 4090T， 白色， 0.94米 x 45.72米， 1卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000059482/"
+      },
+      "0011": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Diamond Grade™ 钻石级柔性施工区反光膜 3914， 荧光橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ Diamond Grade™ 钻石级柔性施工区反光膜 3914， 荧光橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1270475D",
+            "alt": "3M™ Diamond Grade™ 钻石级柔性施工区反光膜 3914， 荧光橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000059459/"
+      },
+      "0012": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Stamark™ 钻石级成型标线A380IE S白色，15.23厘米*27.42米",
+         "description": "",
+         "number": "3M™ Stamark™ 钻石级成型标线A380IE S白色，15.23厘米*27.42米",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/94619D",
+            "alt": "3M™ Stamark™ 钻石级成型标线A380IE S白色，15.23厘米*27.42米"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000155151/"
+      },
+      "0013": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Stamark™ 钻石级对比标线带A381I-5ES 黄色，22.9厘米*45.7米（3.8-15.2-3.8厘米）",
+         "description": "",
+         "number": "3M™ Stamark™ 钻石级对比标线带A381I-5ES 黄色，22.9厘米*45.7米（3.8-15.2-3.8厘米）",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/573231D",
+            "alt": "3M™ Stamark™ 钻石级对比标线带A381I-5ES 黄色，22.9厘米*45.7米（3.8-15.2-3.8厘米）"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000155069/"
+      },
+      "0014": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Diamond Grade 钻石级反光膜 4083， 荧光黄绿， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ Diamond Grade 钻石级反光膜 4083， 荧光黄绿， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422208D",
+            "alt": "3M™ Diamond Grade 钻石级反光膜 4083， 荧光黄绿， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v100010028/"
+      },
+      "0015": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4081， 荧光黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4081， 荧光黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422205D",
+            "alt": "3M™ 钻石级反光膜 4081， 荧光黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548592/"
+      },
+      "0016": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Stamark™ 钻石级成型标线带A381IES 黄色，15.2厘米*27.42米",
+         "description": "",
+         "number": "3M™ Stamark™ 钻石级成型标线带A381IES 黄色，15.2厘米*27.42米",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/94620D",
+            "alt": "3M™ Stamark™ 钻石级成型标线带A381IES 黄色，15.2厘米*27.42米"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000155153/"
+      },
+      "0017": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4091， 黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4091， 黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422218D",
+            "alt": "3M™ 钻石级反光膜 4091， 黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548589/"
+      },
+      "0018": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级校车反光标识 4083， 荧光黄绿色， 5 厘米 x 45.1 米， 带3M LOGO， 半切",
+         "description": "",
+         "number": "3M™ 钻石级校车反光标识 4083， 荧光黄绿色， 5 厘米 x 45.1 米， 带3M LOGO， 半切",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1421876D",
+            "alt": "3M™ 钻石级校车反光标识 4083， 荧光黄绿色， 5 厘米 x 45.1 米， 带3M LOGO， 半切"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v100299702/"
+      },
+      "0019": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Stamark™ 钻石级对比标线带A380I-5ES 白色，22.9厘米*45.7米（3.8-15.2-3.8厘米）",
+         "description": "",
+         "number": "3M™ Stamark™ 钻石级对比标线带A380I-5ES 白色，22.9厘米*45.7米（3.8-15.2-3.8厘米）",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/573232D",
+            "alt": "3M™ Stamark™ 钻石级对比标线带A380I-5ES 白色，22.9厘米*45.7米（3.8-15.2-3.8厘米）"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000309222/"
+      },
+      "0020": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 钻石级反光膜 4095， 蓝色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 钻石级反光膜 4095， 蓝色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422225D",
+            "alt": "3M™ 钻石级反光膜 4095， 蓝色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548601/"
+      },
+      "0021": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Diamond Grade™ DG³ 4084钻石级反光膜荧光橙色，1.219米*45.72米",
+         "description": "",
+         "number": "3M™ Diamond Grade™ DG³ 4084钻石级反光膜荧光橙色，1.219米*45.72米",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1270494D",
+            "alt": "3M™ Diamond Grade™ DG³ 4084钻石级反光膜荧光橙色，1.219米*45.72米"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000059467/"
+      },
+      "0022": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ Diamond Grade™ 钻石级反光膜 4084， 荧光橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ Diamond Grade™ 钻石级反光膜 4084， 荧光橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422211D",
+            "alt": "3M™ Diamond Grade™ 钻石级反光膜 4084， 荧光橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548256/"
+      },
+      "0023": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["TRAILERS-NOREG", "SCHOOL-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG", "CAR-HIGHLIGHT", "CAR-DECAL", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "RV-HIGHLIGHT", "RV-DECAL", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "CYCLE-HIGHLIGHT", "CYCLE-DECAL"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 商业级反光膜 880C-10， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 商业级反光膜 880C-10， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1724622D",
+            "alt": "3M™ 商业级反光膜 880C-10， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v101584002/"
+      },
+      "0024": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "EMRGNCY", "TRICYCLE", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER", "CYCLE"],
+            "t2": ["TRAILERS-NOREG", "SCHOOL-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG", "CAR-HIGHLIGHT", "CAR-DECAL", "CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS"],
+            "t3": ["TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 823i 棱镜级柔性车身反光膜",
+         "description": "",
+         "number": "3M™ 823i 棱镜级柔性车身反光膜",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1338298D",
+            "alt": "3M™ 823i 棱镜级柔性车身反光膜"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/b10170025/"
+      },
+      "0025": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级柔性反光膜 3340， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级柔性反光膜 3340， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1270461D",
+            "alt": "3M™ 超强级柔性反光膜 3340， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000211424/"
+      },
+      "0026": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3932， 红色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3932， 红色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422280D",
+            "alt": "3M™ 超强级反光膜 3932， 红色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547723/"
+      },
+      "0027": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3935， 蓝色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3935， 蓝色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422286D",
+            "alt": "3M™ 超强级反光膜 3935， 蓝色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547724/"
+      },
+      "0028": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3934， 橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3934， 橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422291D",
+            "alt": "3M™ 超强级反光膜 3934， 橙色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547727/"
+      },
+      "0029": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3939， 棕色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3939， 棕色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422254D",
+            "alt": "3M™ 超强级反光膜 3939， 棕色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547852/"
+      },
+      "0030": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级柔性反光膜3314 橙色（用于防撞桶），1.219米 x 45.72米",
+         "description": "",
+         "number": "3M™ 超强级柔性反光膜3314 橙色（用于防撞桶），1.219米 x 45.72米",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422291D",
+            "alt": "3M™ 超强级柔性反光膜3314 橙色（用于防撞桶），1.219米 x 45.72米"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000183654/"
+      },
+      "0031": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级柔性反光膜 3310， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级柔性反光膜 3310， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422249D",
+            "alt": "3M™ 超强级柔性反光膜 3310， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000059498/"
+      },
+      "0032": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3930， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3930， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422249D",
+            "alt": "3M™ 超强级反光膜 3930， 白色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547730/"
+      },
+      "0033": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3931， 黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3931， 黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422277D",
+            "alt": "3M™ 超强级反光膜 3931， 黄色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547743/"
+      },
+      "0034": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级柔性反光膜3311 黄色（用于防撞桶），1.219米 x 45.72米",
+         "description": "",
+         "number": "3M™ 超强级柔性反光膜3311 黄色（用于防撞桶），1.219米 x 45.72米",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422277D",
+            "alt": "3M™ 超强级柔性反光膜3311 黄色（用于防撞桶），1.219米 x 45.72米"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000059499/"
+      },
+      "0035": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3924x, 荧光橙色, 1.219 米 x 45.72 米 (48 英寸 x 50 码), 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3924x, 荧光橙色, 1.219 米 x 45.72 米 (48 英寸 x 50 码), 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1270471D",
+            "alt": "3M™ 超强级反光膜 3924x, 荧光橙色, 1.219 米 x 45.72 米 (48 英寸 x 50 码), 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v100307548/"
+      },
+      "0036": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级数码打印专用膜 3930DS， 白色， 1.219 米 x 45.72 米， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级数码打印专用膜 3930DS， 白色， 1.219 米 x 45.72 米， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1182732D",
+            "alt": "3M™ 超强级数码打印专用膜 3930DS， 白色， 1.219 米 x 45.72 米， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000253597/"
+      },
+      "0037": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-NOREG", "EMRGNCY-NOREG", "TRICYCLE-NOREG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-NOREG-WARNING", "EMRGNCY-NOREG-WARNING", "TRICYCLE-NOREG-WARNING", "DANGEROUS-NOREG-WARNING"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 超强级反光膜 3937， 绿色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 超强级反光膜 3937， 绿色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com/mws/media/1422283D",
+            "alt": "3M™ 超强级反光膜 3937， 绿色， 1.219 米 x 45.72 米 (48 英寸 x 50 码)， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000547750/"
+      },
+      "0038": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "DANGEROUS", "CAR", "TRUCK", "RV", "PASSENGER"],
+            "t2": ["TRAILERS-NOREG", "SCHOOL-NOREG", "DANGEROUS-NOREG", "CAR-AIDS", "TRUCK-AIDS", "RV-AIDS", "PASSENGER-AIDS"],
+            "t3": ["TRAILERS-NOREG-AIDS", "SCHOOL-NOREG-AIDS", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 蓄光膜 6900，1.219 米 x 45.72 米， 1 卷/箱",
+         "description": "",
+         "number": "3M™ 蓄光膜 6900，1.219 米 x 45.72 米， 1 卷/箱",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/403168D",
+            "alt": "3M™ 蓄光膜 6900，1.219 米 x 45.72 米， 1 卷/箱"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000096693/"
+      },
+      "0039": {
+         "tags": {
+            "t1": ["DANGEROUS"],
+            "t2": ["DANGEROUS-REG"],
+            "t3": ["DANGEROUS-REG-BODY"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 危险品车车身橙色带反光贴 3934， 橙色， 0.15 米 x 45.72 米 (150 毫米 x 50 码)",
+         "description": "",
+         "number": "3M™ 危险品车车身橙色带反光贴 3934， 橙色， 0.15 米 x 45.72 米 (150 毫米 x 50 码)",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1421860D",
+            "alt": "3M™ 危险品车车身橙色带反光贴 3934， 橙色， 0.15 米 x 45.72 米 (150 毫米 x 50 码)"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v000548216/"
+      },
+      "0041": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "DANGEROUS"],
+            "t2": ["TRAILERS-REG", "EMRGNCY-REG", "DANGEROUS-REG"],
+            "t3": ["TRAILERS-REG-REAR", "EMRGNCY-REG-REAR", "DANGEROUS-REG-REAR"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 重型车辆尾部标志板 131 毫米 x 566 毫米， 15 对/箱",
+         "description": "重型车辆尾部标志板（适用于≥12吨重型货车）",
+         "number": "3M™ 重型车辆尾部标志板 131 毫米 x 566 毫米， 15 对/箱",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1427837D",
+            "alt": "重型车辆尾部标志板"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v100010034/"
+      },
+      "0042": {
+         "tags": {
+            "t1": ["TRAILERS", "EMRGNCY", "DANGEROUS"],
+            "t2": ["TRAILERS-REG", "EMRGNCY-REG", "DANGEROUS-REG"],
+            "t3": ["TRAILERS-REG-REAR", "EMRGNCY-REG-REAR", "DANGEROUS-REG-REAR"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "3M™ 长型车辆尾部反光标志板 195.5 毫米 x 565.5 毫米， 15 对/箱",
+         "description": "长型车辆尾部标志板（适用于≥ 8米挂车）",
+         "number": "3M™ 长型车辆尾部反光标志板 195.5 毫米 x 565.5 毫米， 15 对/箱",
+         "image": {
+            "file": "https://multimedia.3m.com.cn/mws/media/1428078D",
+            "alt": "3M™ 车辆尾部标志板 长型，195.5毫米* 565.5毫米"
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/p/d/v100010033/"
+      },
+      "0043": {
+         "tags": {
+            "t1": ["TRAILERS", "SCHOOL", "CAR", "TRUCK", "RV", "PASSENGER", "EMRGNCY", "CYCLE", "TRICYCLE", "DANGEROUS"],
+            "t2": ["TRAILERS-REG", "TRAILERS-NOREG", "SCHOOL-REG", "SCHOOL-NOREG", "CAR-HIGHLIGHT", "CAR-DECAL", "CAR-WARNING", "CAR-AIDS", "TRUCK-HIGHLIGHT", "TRUCK-DECAL", "TRUCK-WARNING", "TRUCK-AIDS", "RV-HIGHLIGHT", "RV-DECAL", "RV-WARNING", "RV-AIDS", "PASSENGER-HIGHLIGHT", "PASSENGER-DECAL", "PASSENGER-WARNING", "PASSENGER-AIDS", "EMRGNCY-REG", "EMRGNCY-NOREG", "CYCLE-HIGHLIGHT", "CYCLE-DECAL", "CYCLE-WARNING", "CYCLE-AIDS", "TRICYCLE-REG", "TRICYCLE-NOREG", "DANGEROUS-REG", "DANGEROUS-NOREG"],
+            "t3": ["TRAILERS-REG-BODY", "TRAILERS-REG-REAR", "TRAILERS-NOREG-HIGHLIGHT", "TRAILERS-NOREG-DECAL", "TRAILERS-NOREG-WARNING", "TRAILERS-NOREG-AIDS", "SCHOOL-REG-BODY", "SCHOOL-NOREG-HIGHLIGHT", "SCHOOL-NOREG-DECAL", "SCHOOL-NOREG-WARNING", "SCHOOL-NOREG-AIDS", "EMRGNCY-REG-BODY", "EMRGNCY-REG-REAR", "EMRGNCY-NOREG-HIGHLIGHT", "EMRGNCY-NOREG-DECAL", "EMRGNCY-NOREG-WARNING", "EMRGNCY-NOREG-AIDS", "TRICYCLE-REG-GRADE1", "TRICYCLE-REG-GRADE2", "TRICYCLE-NOREG-HIGHLIGHT", "TRICYCLE-NOREG-DECAL", "TRICYCLE-NOREG-WARNING", "TRICYCLE-NOREG-AIDS", "DANGEROUS-REG-BODY", "DANGEROUS-REG-REAR", "DANGEROUS-NOREG-HIGHLIGHT", "DANGEROUS-NOREG-DECAL", "DANGEROUS-NOREG-WARNING", "DANGEROUS-NOREG-AIDS"],
+            "t4": [],
+            "t5": [],
+            "t6": [],
+            "t7": [],
+            "t8": [],
+            "t9": [],
+            "t10": []
+         },
+         "name": "联系3M交通安全专家",
+         "description": "填写表格，获取免费样品、工艺培训、解决方案及客户支持服务",
+         "number": "联系3M交通安全专家",
+         "image": {
+            "file": "",
+            "alt": ""
+         },
+         "url": "https://www.3m.com.cn/3M/zh_CN/road-safety-cn/support/",
+         "params" : "no_product_match_needs_expert",
+         "id" : "CTA"
+      }
+   },
+   "panels": [
+      {
+         "id": "intro",
+         "statement": "Find the right* retroreflective conspicuity tape for your fleet or vehicle.",
+         "tag": "Reflectivity within reach.",
+         "direction": "1.请选择您希望了解的车辆类型？",
+         "branches": [
+            {
+               "panel": "trailers",
+               "icon": "Truck",
+               "tag": "TRAILERS",
+               "text": "货车及挂车"
+            },
+            {
+               "panel": "school",
+               "icon": "Schoolbus",
+               "tag": "SCHOOL",
+               "text": "校车"
+            },
+            {
+               "panel": "car",
+               "icon": "Passengercar",
+               "tag": "CAR",
+               "text": "乘用车"
+            },
+            {
+               "panel": "truck",
+               "icon": "Pickuptruck",
+               "tag": "TRUCK",
+               "text": "多用途货车（皮卡）"
+            },
+            {
+               "panel": "rv",
+               "icon": "Recreationalvehicle",
+               "tag": "RV",
+               "text": "房车"
+            },
+            {
+               "panel": "passenger",
+               "icon": "Bus",
+               "tag": "PASSENGER",
+               "text": "客车"
+            },
+            {
+               "panel": "emrgncy",
+               "icon": "Emergencyvehicle",
+               "tag": "EMRGNCY",
+               "text": "应急车辆"
+            },
+            {
+               "panel": "cycle",
+               "icon": "2-wheelervehicle",
+               "tag": "CYCLE",
+               "text": "两轮车"
+            },
+            {
+               "panel": "tricycle",
+               "icon": "3-wheelervehicle",
+               "tag": "TRICYCLE",
+               "text": "三轮车"
+            },
+            {
+               "panel": "dangerous",
+               "icon": "Dangeroustruck",
+               "tag": "DANGEROUS",
+               "text": "危险品货车及挂车"
+            }
+         ]
+      },
+      {
+         "id": "trailers",
+         "question": "2.请问您需要的反光产品，是否要求满足相关法规?",
+         "branches": [
+            {
+               "panel": "trailers_reg",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG",
+               "text": "法规件"
+            },
+            {
+               "panel": "trailers_noreg",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG",
+               "text": "非法规件"
+            }
+         ]
+      },
+      {
+         "id": "trailers_reg",
+         "question": "3.请问您需要的是哪类法规件产品?",
+         "branches": [
+            {
+               "panel": "trailers_reg_body",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG-BODY",
+               "text": "车身反光标识"
+            },
+            {
+               "panel": "trailers_reg_rear",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG-REAR",
+               "text": "车辆尾部标志板"
+            }
+         ]
+      },
+      {
+         "id": "trailers_reg_body",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG-BODY-1",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG-BODY-2",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "trailers_reg_rear",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG-REAR-1",
+               "text": "重型车辆尾部标志板（适用于≥12吨重型货车）"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-REG-REAR-2",
+               "text": "长型车辆尾部标志板（适用于≥ 8米挂车）"
+            }
+         ]
+      },
+      {
+         "id": "trailers_noreg",
+         "question": "3.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "trailers_noreg_highlight",
+               "icon": "LOGOsticker",
+               "tag": "TRAILERS-NOREG-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "trailers_noreg_decal",
+               "icon": "Patternsticker",
+               "tag": "TRAILERS-NOREG-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "trailers_noreg_warning",
+               "icon": "Warningsticker",
+               "tag": "TRAILERS-NOREG-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "trailers_noreg_aids",
+               "icon": "Functionsticker",
+               "tag": "TRAILERS-NOREG-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "trailers_noreg_highlight",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "trailers_noreg_decal",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "trailers_noreg_warning",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-WARNING-3",
+               "text": "超强级"
+            }
+         ]
+      },
+      {
+         "id": "trailers_noreg_aids",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "trailers",
+               "tag": "TRAILERS-NOREG-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "school",
+         "question": "2.请问您需要的反光产品，是否要求满足相关法规?",
+         "branches": [
+            {
+               "panel": "school_reg",
+               "icon": "flat",
+               "tag": "SCHOOL-REG",
+               "text": "法规件"
+            },
+            {
+               "panel": "school_noreg",
+               "icon": "curves",
+               "tag": "SCHOOL-NOREG",
+               "text": "非法规件"
+            }
+         ]
+      },
+      {
+         "id": "school_reg",
+         "question": "",
+         "branches": [
+            {
+               "panel": "school_reg_body",
+               "icon": "reg",
+               "tag": "SCHOOL-REG-BODY",
+               "text": "校车轮廓反光标识"
+            }
+         ]
+      },
+      {
+         "id": "school_noreg",
+         "question": "3.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "school_noreg_highlight",
+               "icon": "LOGOsticker",
+               "tag": "SCHOOL-NOREG-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "school_noreg_decal",
+               "icon": "Patternsticker",
+               "tag": "SCHOOL-NOREG-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "school_noreg_warning",
+               "icon": "Warningsticker",
+               "tag": "SCHOOL-NOREG-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "school_noreg_aids",
+               "icon": "Functionsticker",
+               "tag": "SCHOOL-NOREG-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "school_noreg_highlight",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "SCHOOL-NOREG-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "SCHOOL-NOREG-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "SCHOOL-NOREG-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "school_noreg_decal",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "SCHOOL-NOREG-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "SCHOOL-NOREG-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "SCHOOL-NOREG-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "school_noreg_warning",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "SCHOOL-NOREG-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "SCHOOL-NOREG-WARNING-2",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "school_noreg_aids",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "SCHOOL-NOREG-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "SCHOOL-NOREG-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "SCHOOL-NOREG-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "car",
+         "question": "2.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "car_highlight",
+               "icon": "LOGOsticker",
+               "tag": "CAR-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "car_decal",
+               "icon": "Patternsticker",
+               "tag": "CAR-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "car_warning",
+               "icon": "Warningsticker",
+               "tag": "CAR-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "car_aids",
+               "icon": "Functionsticker",
+               "tag": "CAR-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "car_highlight",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CAR-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "car_decal",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CAR-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "car_warning",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CAR-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-WARNING-2",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "car_aids",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CAR-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CAR-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "truck",
+         "question": "2.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "truck_highlight",
+               "icon": "LOGOsticker",
+               "tag": "TRUCK-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "truck_decal",
+               "icon": "Patternsticker",
+               "tag": "TRUCK-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "truck_warning",
+               "icon": "Warningsticker",
+               "tag": "TRUCK-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "truck_aids",
+               "icon": "Functionsticker",
+               "tag": "TRUCK-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "truck_highlight",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "TRUCK-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "truck_decal",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "TRUCK-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "truck_warning",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "TRUCK-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-WARNING-3",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-WARNING-4",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "truck_aids",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "TRUCK-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "TRUCK-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "rv",
+         "question": "2.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "rv_highlight",
+               "icon": "LOGOsticker",
+               "tag": "RV-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "rv_decal",
+               "icon": "Patternsticker",
+               "tag": "RV-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "rv_warning",
+               "icon": "Warningsticker",
+               "tag": "RV-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "rv_aids",
+               "icon": "Functionsticker",
+               "tag": "RV-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "rv_highlight",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "RV-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "rv_decal",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "RV-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "rv_warning",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "RV-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-WARNING-3",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-WARNING-4",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "rv_aids",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "RV-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "RV-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "passenger",
+         "question": "2.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "passenger_highlight",
+               "icon": "LOGOsticker",
+               "tag": "PASSENGER-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "passenger_decal",
+               "icon": "Patternsticker",
+               "tag": "PASSENGER-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "passenger_warning",
+               "icon": "Warningsticker",
+               "tag": "PASSENGER-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "passenger_aids",
+               "icon": "Functionsticker",
+               "tag": "PASSENGER-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "passenger_highlight",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "PASSENGER-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "passenger_decal",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "PASSENGER-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "passenger_warning",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "PASSENGER-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-WARNING-3",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-WARNING-4",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "passenger_aids",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "PASSENGER-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "PASSENGER-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy",
+         "question": "2.请问您需要的反光产品，是否要求满足相关法规?",
+         "branches": [
+            {
+               "panel": "emrgncy_reg",
+               "icon": "flat",
+               "tag": "EMRGNCY-REG",
+               "text": "法规件"
+            },
+            {
+               "panel": "emrgncy_noreg",
+               "icon": "curves",
+               "tag": "EMRGNCY-NOREG",
+               "text": "非法规件"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_reg",
+         "question": "3.请问您需要的是哪类法规件产品?",
+         "branches": [
+            {
+               "panel": "emrgncy_reg_body",
+               "icon": "reg",
+               "tag": "EMRGNCY-REG-BODY",
+               "text": "车身反光标识"
+            },
+            {
+               "panel": "emrgncy_reg_rear",
+               "icon": "noreg",
+               "tag": "EMRGNCY-REG-REAR",
+               "text": "车辆尾部标志板"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_reg_body",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "EMRGNCY-REG-BODY-1",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "EMRGNCY-REG-BODY-2",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_reg_rear",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "EMRGNCY-REG-REAR-1",
+               "text": "重型车辆尾部标志板（适用于≥12吨重型货车）"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "EMRGNCY-REG-REAR-2",
+               "text": "长型车辆尾部标志板（适用于≥ 8米挂车）"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_noreg",
+         "question": "3.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "emrgncy_noreg_highlight",
+               "icon": "LOGOsticker",
+               "tag": "EMRGNCY-NOREG-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "emrgncy_noreg_decal",
+               "icon": "Patternsticker",
+               "tag": "EMRGNCY-NOREG-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "emrgncy_noreg_warning",
+               "icon": "Warningsticker",
+               "tag": "EMRGNCY-NOREG-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "emrgncy_noreg_aids",
+               "icon": "Functionsticker",
+               "tag": "EMRGNCY-NOREG-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_noreg_highlight",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "EMRGNCY-NOREG-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "EMRGNCY-NOREG-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "EMRGNCY-NOREG-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_noreg_decal",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "EMRGNCY-NOREG-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "EMRGNCY-NOREG-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "EMRGNCY-NOREG-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_noreg_warning",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "EMRGNCY-NOREG-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "EMRGNCY-NOREG-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "EMRGNCY-NOREG-WARNING-3",
+               "text": "超强级"
+            }
+         ]
+      },
+      {
+         "id": "emrgncy_noreg_aids",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "EMRGNCY-NOREG-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "EMRGNCY-NOREG-AIDS-2",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "cycle",
+         "question": "2.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "cycle_highlight",
+               "icon": "LOGOsticker",
+               "tag": "CYCLE-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "cycle_decal",
+               "icon": "Patternsticker",
+               "tag": "CYCLE-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "cycle_warning",
+               "icon": "Warningsticker",
+               "tag": "CYCLE-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "cycle_aids",
+               "icon": "Functionsticker",
+               "tag": "CYCLE-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "cycle_highlight",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CYCLE-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CYCLE-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CYCLE-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "cycle_decal",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CYCLE-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CYCLE-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CYCLE-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "cycle_warning",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CYCLE-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CYCLE-WARNING-2",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "cycle_aids",
+         "question": "3.根据您的选择，我们为您推荐?",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "reg",
+               "tag": "CYCLE-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "noreg",
+               "tag": "CYCLE-AIDS-2",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "tricycle",
+         "question": "2.请问您需要的反光产品，是否要求满足相关法规?",
+         "branches": [
+            {
+               "panel": "tricycle_reg",
+               "icon": "flat",
+               "tag": "TRICYCLE-REG",
+               "text": "法规件"
+            },
+            {
+               "panel": "tricycle_noreg",
+               "icon": "curves",
+               "tag": "TRICYCLE-NOREG",
+               "text": "非法规件"
+            }
+         ]
+      },
+      {
+         "id": "tricycle_reg",
+         "question": "3.请问您需要的是哪类法规件产品?",
+         "branches": [
+            {
+               "panel": "tricycle_reg_grade1",
+               "icon": "reg",
+               "tag": "TRICYCLE-REG-GRADE1",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "tricycle_reg_grade2",
+               "icon": "noreg",
+               "tag": "TRICYCLE-REG-GRADE2",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "tricycle_noreg",
+         "question": "3.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "tricycle_noreg_highlight",
+               "icon": "LOGOsticker",
+               "tag": "TRICYCLE-NOREG-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "tricycle_noreg_decal",
+               "icon": "Patternsticker",
+               "tag": "TRICYCLE-NOREG-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "tricycle_noreg_warning",
+               "icon": "Warningsticker",
+               "tag": "TRICYCLE-NOREG-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "tricycle_noreg_aids",
+               "icon": "Functionsticker",
+               "tag": "TRICYCLE-NOREG-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "tricycle_noreg_highlight",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "TRICYCLE-NOREG-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "TRICYCLE-NOREG-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "TRICYCLE-NOREG-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "tricycle_noreg_decal",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "TRICYCLE-NOREG-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "TRICYCLE-NOREG-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "TRICYCLE-NOREG-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "tricycle_noreg_warning",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "TRICYCLE-NOREG-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "TRICYCLE-NOREG-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "TRICYCLE-NOREG-WARNING-3",
+               "text": "超强级"
+            }
+         ]
+      },
+      {
+         "id": "tricycle_noreg_aids",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "TRICYCLE-NOREG-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "TRICYCLE-NOREG-AIDS-2",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "dangerous",
+         "question": "2.请问您需要的反光产品，是否要求满足相关法规?",
+         "branches": [
+            {
+               "panel": "dangerous_reg",
+               "icon": "flat",
+               "tag": "DANGEROUS-REG",
+               "text": "法规件"
+            },
+            {
+               "panel": "dangerous_noreg",
+               "icon": "curves",
+               "tag": "DANGEROUS-NOREG",
+               "text": "非法规件"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_reg",
+         "question": "3.请问您需要的是哪类法规件产品?",
+         "branches": [
+            {
+               "panel": "dangerous_reg_body",
+               "icon": "reg",
+               "tag": "DANGEROUS-REG-BODY",
+               "text": "车身反光标识"
+            },
+            {
+               "panel": "dangerous_reg_rear",
+               "icon": "noreg",
+               "tag": "DANGEROUS-REG-REAR",
+               "text": "车辆尾部标志板"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_reg_body",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "DANGEROUS-REG-BODY-1",
+               "text": "一级车身反光标识:983"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-REG-BODY-2",
+               "text": "橙色反光带"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-REG-BODY-3",
+               "text": "二级车身反光标识:983D"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_reg_rear",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "DANGEROUS-REG-REAR-1",
+               "text": "重型车辆尾部标志板（适用于≥12吨重型货车）"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-REG-REAR-2",
+               "text": "长型车辆尾部标志板（适用于≥ 8米挂车）"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_reg_rear",
+         "question": "3.请问您需要的是哪类反光应用？",
+         "branches": [
+            {
+               "panel": "dangerous_noreg_highlight",
+               "icon": "LOGOsticker",
+               "tag": "DANGEROUS-NOREG-HIGHLIGHT",
+               "text": "品牌突显"
+            },
+            {
+               "panel": "dangerous_noreg_decal",
+               "icon": "Patternsticker",
+               "tag": "DANGEROUS-NOREG-DECAL",
+               "text": "造型贴花"
+            },
+            {
+               "panel": "dangerous_noreg_warning",
+               "icon": "Warningsticker",
+               "tag": "DANGEROUS-NOREG-WARNING",
+               "text": "安全警示"
+            },
+            {
+               "panel": "dangerous_noreg_aids",
+               "icon": "Functionsticker",
+               "tag": "DANGEROUS-NOREG-AIDS",
+               "text": "功能辅助"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_noreg_highlight",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "DANGEROUS-NOREG-HIGHLIGHT-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-NOREG-HIGHLIGHT-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "DANGEROUS-NOREG-HIGHLIGHT-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_noreg_decal",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "DANGEROUS-NOREG-DECAL-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-NOREG-DECAL-2",
+               "text": "880C"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "DANGEROUS-NOREG-DECAL-3",
+               "text": "823i"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_noreg_warning",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "DANGEROUS-NOREG-WARNING-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-NOREG-WARNING-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "DANGEROUS-NOREG-WARNING-3",
+               "text": "超强级"
+            }
+         ]
+      },
+      {
+         "id": "dangerous_noreg_aids",
+         "question": "4.根据您的选择，我们为您推荐",
+         "branches": [
+            {
+               "panel": "results",
+               "icon": "2years",
+               "tag": "DANGEROUS-NOREG-AIDS-1",
+               "text": "钻石级"
+            },
+            {
+               "panel": "results",
+               "icon": "5years",
+               "tag": "DANGEROUS-NOREG-AIDS-2",
+               "text": "823i"
+            },
+            {
+               "panel": "results",
+               "icon": "10years",
+               "tag": "DANGEROUS-NOREG-AIDS-3",
+               "text": "6900"
+            }
+         ]
+      },
+      {
+         "id": "results",
+         "tag": "Based on your criteria, here are recommendations:",
+         "description": "-- NUMOFPRODUCTS -- products match your current selection."
+      }
+   ],
+   "controls": {
+      "left": [
+         {
+            "id": "back",
+            "text": "返回",
+            "url": "#"
+         }
+      ],
+      "center": true,
+      "right": [
+         {
+            "id": "reset",
+            "text": "重置",
+            "url": "#"
+         }
+      ]
+   },
+   "extras": [
+      {
+         "paragraph": {
+            "id": "disclaimer",
+            "contents": [
+               {
+                  "text": "*免责声明:产品选择和使用:此工具旨在为车辆的反光胶带产品提供指导。由于影响产品使用的因素各异，您仍需仔细判断3M产品是否适合您期待的特定应。如果您在查看适配反光胶带的过程中需要其他帮助，请随时联络3M专家。（表单另外配置）。"
+               }
+            ]
+         }
+      }
+   ],
+   "footer": {
+      "links": [],
+      "indicator": {
+         "match": {
+            "statement": "适配您当前选择的产品",
+            "viewtext": "查看所有产品"
+         }
+      }
+   }
+}
