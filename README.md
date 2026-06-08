@@ -27,3 +27,18 @@ npm run build
 ```
 
 Generated files are written to `public/` and are not committed.
+
+## Deployment
+
+The repository includes a GitHub Pages workflow at
+`.github/workflows/pages.yml`. It builds the site from the `main` branch and
+deploys the generated `public/` directory.
+
+Before the first deployment:
+
+1. Push this source repository to the `main` branch.
+2. In GitHub, open **Settings > Pages**.
+3. Set **Source** to **GitHub Actions**.
+4. Run the workflow manually or push a new commit.
+
+The site currently uses `https://luciustan.github.io` without a custom domain.

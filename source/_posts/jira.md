@@ -170,7 +170,7 @@ docker restart jira
 
 1. 复制红框内你的服务器ID，如：AAAA-BBBB-CCCC-DDDD
 2. 打开unraid终端，进入atlassian文件夹
-3. 执行如下命令，如果提示无法运行java指令可参照此教程：[点击前往](https://www.luciustan.online/2021/10/26/unraid_java/)
+3. 执行如下命令，如果提示无法运行java指令可参照此教程：[点击前往](/2021/10/26/unraid_java/)
 
 ```bash
 //将123@abc.com 替换为你的邮箱

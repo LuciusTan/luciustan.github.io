@@ -7,7 +7,7 @@
   },
   "scripts": {
     "clean": "hexo clean",
-    "build": "hexo clean && hexo generate",
+    "build": "hexo clean && hexo generate && touch public/.nojekyll",
     "server": "hexo server",
     "server:debug": "hexo server --debug",
     "check": "npm run build"

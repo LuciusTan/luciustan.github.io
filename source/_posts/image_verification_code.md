@@ -1,7 +1,8 @@
 ---
 title: 如何使用图形验证码
-date: 2020-05-04 90:00:00
+date: 2020-05-04 20:00:00
 updated: 2020-05-04 22:00:00
+permalink: 2020/05/07/image_verification_code/
 tags: 
   - 前端
   - Form表单
