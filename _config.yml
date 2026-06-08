@@ -14,7 +14,7 @@ email: luciustan1421@gmail.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://www.luciustan.online
+url: https://luciustan.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,13 +101,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: 'git'
-  repo: https://github.com/LuciusTan/luciustan.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: master
-  message: blog update
+# Deployment is intentionally disabled during the recovery work.
+# A GitHub Actions workflow will replace the legacy local deploy cache.
+deploy: {}
 
 # 音乐
 aplayer:
