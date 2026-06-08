@@ -1,41 +1,30 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "l-zone-blog",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
-    "g": "npx hexo generate",
-    "c": "npx hexo clean",
-    "d": "npx hexo deploy",
-    "db": "npx hexo server --debug",
-    "gb": "./node_modules/gulp/bin/gulp.js build",
-    "b": "npx hexo clean && npx hexo generate && npx gulp build"
+    "clean": "hexo clean",
+    "build": "hexo clean && hexo generate",
+    "server": "hexo server",
+    "server:debug": "hexo server --debug",
+    "check": "npm run build"
   },
   "hexo": {
-    "version": "5.3.0"
+    "version": "8.1.2"
   },
   "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-algolia": "^1.3.1",
-    "hexo-algoliasearch": "^1.0.0",
-    "hexo-butterfly-douban": "^1.1.4",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-pug": "^1.0.0",
-    "hexo-renderer-stylus": "^2.0.1",
-    "hexo-server": "^2.0.0",
-    "hexo-tag-aplayer": "^3.0.4",
-    "hexo-theme-landscape": "^0.0.3"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-uglify": "^3.0.2",
-    "readable-stream": "^3.6.0",
-    "uglify-es": "^3.3.9",
-    "workbox-build": "^6.1.5"
+    "hexo": "^8.1.2",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-butterfly": "^5.5.4"
   }
 }
